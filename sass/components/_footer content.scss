@@ -1,0 +1,48 @@
+.footer-content{
+    display: flex;
+    align-items: baseline;
+    }
+    
+    .footer-content__link {
+      font-family: "Raleway";
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      text-decoration: none;
+    }
+    
+    .footer-content__text {
+      color: var(--accent-color);
+
+      &:last-child{
+        color: var(--secondary-color);
+      }
+    }
+    
+    .footer-content__address {
+      line-height: 1.71;
+      color: var(--secondary-color);
+      font-style: normal;
+      margin: 0;
+      margin-top: 20px;
+    }
+    
+    .footer-content__contact {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .footer-content__information {
+      font-style: normal;
+      line-height: 1.71;
+      color: var(--third-color);
+      text-decoration: none;
+      margin-top: 9px;
+      transition: color var(--timing-function);
+
+      &:hover,
+      &:focus{
+        color: var(--accent-color);
+      }
+    }

@@ -1,0 +1,34 @@
+.gallery {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+  }
+  
+  .gallery__item {
+    position: relative;
+  }
+  
+  .gallery__image {
+    mix-blend-mode: normal;
+  }
+  
+  .gallery__text {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 24%;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+  }

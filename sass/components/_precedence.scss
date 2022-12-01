@@ -1,0 +1,34 @@
+.precedence {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .precedence__item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  
+  .precedence__icon {
+    margin-bottom: 30px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    padding: 25px 100px;
+  }
+  
+  .precedence__title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .precedence__text {
+    line-height: 1.71;
+    color: var(--primary-text-color);
+    margin: 0;
+  }
+  
